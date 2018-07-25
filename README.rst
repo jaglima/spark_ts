@@ -15,21 +15,18 @@ Please see the LICENSE file for further details.
 For the impatient
 =================
 
-Python 2.7.9 onwards, and Python 3.4 onwards, include the package management
-system "pip" which should allow you to install this package with::
-
-    pip install numpy
-    pip install spark_ts
-
-Otherwise you may have to build and install Spark_ts. Download and unzip the
+You may have to build and install Spark_ts. Download and unzip the
 source code, go to this directory at the command line, and type::
 
     python setup.py build
-    python setup.py test
     sudo python setup.py install
 
-Here you can replace ``python`` with a specific version, e.g. ``python3.5``.
+You can replace ``python`` with a specific version, e.g. ``python3.5``.
 
+By using pip (available Python 2.7.9 onwards, and Python 3.4 onwards) to install this package, let::
+
+    cd spark_ts/
+    pip install .
 
 Python Requirements
 ===================
