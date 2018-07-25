@@ -95,25 +95,7 @@ There is more testing information in the Biopython Tutorial & Cookbook.
 Experimental code
 =================
 
-Biopython 1.61 introduced a new warning, `Bio.BiopythonExperimentalWarning`,
-which is used to mark any experimental code included in the otherwise
-stable Biopython releases. Such 'beta' level code is ready for wider
-testing, but still likely to change, and should only be tried by early
-adopters in order to give feedback via the biopython-dev mailing list.
-
-We'd expect such experimental code to reach stable status within one or two
-releases, at which point our normal policies about trying to preserve
-backwards compatibility would apply.
-
-
-Biopython is run by volunteers from all over the world, with many types of
-backgrounds. We are always looking for people interested in helping with code
-development, web-site management, documentation writing, technical
-administration, and whatever else comes up.
-
-If you wish to contribute, please visit the web site http://biopython.org
-and join our mailing list: http://biopython.org/wiki/Mailing_lists
-
+This package is in experimental code phase. Use it at your own risk.
 
 Distribution Structure
 ======================
