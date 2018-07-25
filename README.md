@@ -119,17 +119,9 @@ Distribution Structure
 ======================
 
 - README      -- This file.
-- NEWS        -- Release notes and news.
 - LICENSE     -- What you can do with the code.
-- CONTRIB     -- An (incomplete) list of people who helped Biopython in
-  one way or another.
-- DEPRECATED  -- Contains information about modules in Biopython that are
-  removed or no longer recommended for use, and how to update
-  code that uses those modules.
 - MANIFEST.in -- Tells distutils what files to distribute.
 - setup.py    -- Installation file.
-- Bio/        -- The main code base code.
-- BioSQL/     -- Code for using Biopython with BioSQL databases.
+- spark_ts/   -- The main code base code.
 - Doc/        -- Documentation.
-- Scripts/    -- Miscellaneous, possibly useful, standalone scripts.
-- Tests/ -- Regression testing code including sample data files.iBiopython README file
+- Tests/      -- Testing code including sample data files.
