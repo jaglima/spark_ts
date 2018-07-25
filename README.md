@@ -1,5 +1,5 @@
-python README file
-=====================
+Spark_ts - Pyspark data wrangling package
+=========================================
 
 
 This module is a free Python package tools supporting Pyspark for time series
