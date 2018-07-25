@@ -16,12 +16,12 @@ For the impatient
 =================
 
 Python 2.7.9 onwards, and Python 3.4 onwards, include the package management
-system "pip" which should allow you to install Biopython with just::
+system "pip" which should allow you to install this package with::
 
     pip install numpy
-    pip install biopython
+    pip install spark_ts
 
-Otherwise you may have to build and install Biopython. Download and unzip the
+Otherwise you may have to build and install Spark_ts. Download and unzip the
 source code, go to this directory at the command line, and type::
 
     python setup.py build
@@ -35,29 +35,6 @@ Python Requirements
 ===================
 
 We currently recommend using Python 3.5 from http://www.python.org
-
-Biopython is currently supported and tested on the following Python
-implementations:
-
-- Python 2.7, 3.3, 3.4, 3.5 -- see http://www.python.org
-
-  This is the primary development platform for Biopython.
-
-- PyPy 5.0.1 and also PyPy3 2.4 -- see http://www.pypy.org
-
-  Aside from modules with C code or dependent on NumPy, everything should
-  work. PyPy's NumPy reimplementation NumPyPy is still in progress.
-
-- Jython 2.7 -- see http://www.jython.org
-
-  We provide limited support for Jython, but aside from modules with C code,
-  or dependent on SQLite3 or NumPy, everything should work. There are some
-  known issues with test failures which have not yet been resolved.
-
-Please note that support for Python 3.3 is deprecated as of Biopython 1.67,
-and that support for Python 2.6 is deprecated as of Biopython 1.66.
-Biopython 1.62 was our final release to support Python 2.5 and Jython 2.5.
-
 
 Dependencies
 ============
@@ -79,7 +56,7 @@ Spark_ts requires basically Pyspark SQL packges.
 Installation
 ============
 
-First, **make sure that PysparK is installed correctly**. Second, we
+First, **make sure that Pyspark is installed correctly**. Second, we
 recommend you install NumPy (see above). Then install Spark_ts.
 
 Installation from source should be as simple as going to the spark_ts
